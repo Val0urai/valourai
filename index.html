@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valour</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="floating-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="blob blob-4"></div>
+    </div>
+    <div class="site-glow"></div>
+    <div class="content-wrapper">
+        <div class="ambient-orbs">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+        </div>
+        <div class="side-overlay-left"></div>
+        <div class="side-overlay-right"></div>
+        <div class="noise-overlay"></div>
+        <div class="ambient-light"></div>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img src="https://via.placeholder.com/150x50/1C1C1E/FF3B30?text=Valour+AIO" alt="Valour AIO Logo">
+                </div>
+                <div class="nav-links">
+                    <a href="#buy">Buy</a>
+                    <a href="#features">Features</a>
+                    <a href="#why">Why Us</a>
+                    <a href="#faq">FAQ</a>
+                </div>
+            </div>
+        </nav>
+
+        <header class="hero">
+            <div class="container">
+                <h1>V A L O U R</h1>
+                <p>All-in-one Solana toolkit. From Pump.fun till Raydium, we got you covered. With our extensive features we will ignite your imagination and take your token beyond the potential you have ever dreamed about.</p>
+                <div class="cta-group">
+                    <a href="#buy" class="primary-button">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Buy Our Token</span>
+                    </a>
+                    <a href="#" class="secondary-button">
+                        <i class="fab fa-telegram"></i>
+                        <span>Join Telegram</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <section id="buy" class="how-to-buy">
+            <div class="container">
+                <div class="buy-content">
+                    <h2>How to Access</h2>
+                    <p class="buy-description">Join the next generation of trading automation. Access Valour AIO by holding the required amount of tokens.</p>
+                    
+                    <div class="requirements-card">
+                        <div class="requirement-item">
+                            <div class="requirement-icon">
+                                <i class="fas fa-coins"></i>
+                            </div>
+                            <div class="requirement-text">
+                                <h3>Minimum Holding</h3>
+                                <p>$100 USDC worth of Valour</p>
+                            </div>
+                        </div>
+                        <div class="requirement-item">
+                            <div class="requirement-icon">
+                                <i class="fas fa-wallet"></i>
+                            </div>
+                            <div class="requirement-text">
+                                <h3>Compatible Wallet</h3>
+                                <p>Any Solana Wallet</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="token-address-card">
+                        <div class="token-header">
+                            <i class="fas fa-key"></i>
+                            <h3>Token Contract</h3>
+                        </div>
+                        <div class="address-container">
+                            <code>0x742d35Cc6634C0532925a3b844Bc454e4438f44e</code>
+                            <button class="copy-button" onclick="copyAddress()" aria-label="Copy address">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                        <div class="glow-effect"></div>
+                    </div>
+
+                    <div class="buy-actions">
+                        <a href="#" class="primary-button buy-now">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span>Buy on Raydium</span>
+                        </a>
+                        <a href="#" class="secondary-button view-chart">
+                            <i class="fas fa-chart-line"></i>
+                            <span>View on Dexscreener</span>
+                        </a>
+                    </div>
+
+                    <div class="social-connect">
+                        <a href="#" class="telegram-button">
+                            <i class="fab fa-telegram"></i>
+                            <span>Join Our Community</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="feature-grid">
+                    <div class="feature-card" data-parallax="0.1">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Rankboost</h3>
+                        <p>Climb your way up to the top on Dexscreener and boost your organic growth</p>
+                    </div>
+                    <div class="feature-card" data-parallax="0.15">
+                        <i class="fas fa-wave-square"></i>
+                        <h3>Volume Boost</h3>
+                        <p>Inflate the orderbook with tons of orders - Up to 100 transactions per second!</p>
+                    </div>
+                    <div class="feature-card" data-parallax="0.2">
+                        <i class="fas fa-users"></i>
+                        <h3>Holder Boost</h3>
+                        <p>Gain extra holders, choose for temporary or permanent holders on your project</p>
+                    </div>
+                    <div class="feature-card" data-parallax="0.25">
+                        <i class="fas fa-filter"></i>
+                        <h3>Sol Washer</h3>
+                        <p>"Clean" your sol through public liquidity pools, removing any connection on Bubblemaps</p>
+                    </div>
+                    <div class="feature-card" data-parallax="0.3">
+                        <i class="fas fa-rocket"></i>
+                        <h3>Pump.fun Bumpit</h3>
+                        <p>Bump your token to stay on top of pump.fun discovery page</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="why" class="why-valour">
+            <div class="container">
+                <div class="why-header">
+                    <h2>We are <span class="highlight">10x</span></h2>
+                    <h3 class="why-subtitle">faster, cheaper and more reliable.</h3>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value">100</div>
+                        <div class="stat-label">TPS</div>
+                        <div class="stat-description">Transactions Per Second</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-value">10x</div>
+                        <div class="stat-label">Faster</div>
+                        <div class="stat-description">Than Competitors</div>
+                    </div>
+                </div>
+
+                <div class="comparison-box">
+                    <p>
+                        Compared to our competitors we are <span class="highlight">10x faster</span>. 
+                        Whereas others average about 10 transactions per second we can provide up to 
+                        <span class="highlight">100 transactions per second</span>.
+                    </p>
+                    <p>
+                        With our competitive pricing and in house development team we guarantee 
+                        the best pricing with top of the line technology.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="comparison">
+            <div class="container">
+                <div class="graph-container">
+                    <div class="graph-card">
+                        <h3>Without Valour</h3>
+                        <div class="graph slow-growth">
+                            <svg viewBox="0 0 300 200" class="chart">
+                                <defs>
+                                    <linearGradient id="slowGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#FF3B30;stop-opacity:0.2" />
+                                        <stop offset="100%" style="stop-color:#FF3B30;stop-opacity:0" />
+                                    </linearGradient>
+                                </defs>
+                                <path class="line" d="M0,180 Q75,170 150,160 T300,150" />
+                                <path class="area" d="M0,180 Q75,170 150,160 T300,150 V200 H0 Z" />
+                            </svg>
+                            <div class="graph-stats">
+                                <span class="percentage">+12%</span>
+                                <span class="time-period">30 days</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="graph-card">
+                        <h3>With Valour</h3>
+                        <div class="graph rapid-growth">
+                            <svg viewBox="0 0 300 200" class="chart">
+                                <defs>
+                                    <linearGradient id="rapidGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#30FF3B;stop-opacity:0.2" />
+                                        <stop offset="100%" style="stop-color:#30FF3B;stop-opacity:0" />
+                                    </linearGradient>
+                                </defs>
+                                <path class="line" d="M0,180 Q50,100 100,60 T300,20" />
+                                <path class="area" d="M0,180 Q50,100 100,60 T300,20 V200 H0 Z" />
+                            </svg>
+                            <div class="graph-stats">
+                                <span class="percentage">+580%</span>
+                                <span class="time-period">30 days</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq">
+            <div class="container">
+                <div class="faq-header">
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How do I get access to Valour AIO?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Hold $100 USDC worth of Valour tokens in your Solana wallet to gain immediate access.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What makes Valour different?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We offer 10x faster execution, military-grade automation, and advanced features like rankboost and volume boost.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Is there a minimum holding period?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>No, as long as you maintain the minimum balance of $100 USDC worth of tokens, you'll have access.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What wallets are supported?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We support all major Solana wallets including Phantom, Solflare, and more.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h4>Contact Us</h4>
+                        <div class="footer-contact">
+                            <p><i class="fas fa-envelope"></i> info@valour.com</p>
+                            <p><i class="fas fa-clock"></i> Support: 09AM - 11PM CET</p>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Connect</h4>
+                        <a href="#"><i class="fab fa-telegram"></i> Telegram</a>
+                        <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                        <a href="#"><i class="fab fa-discord"></i> Discord</a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Valour AIO. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html> 
